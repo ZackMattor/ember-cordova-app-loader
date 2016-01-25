@@ -41,7 +41,12 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "broccoli-funnel": "~0.2.3",
+    "broccoli-kitchen-sink-helpers": "~0.2.2",
+    "broccoli-merge-trees": "~0.1.4",
+    "broccoli-writer": "~0.1.1",
+    "ember-cli-babel": "^5.1.5",
+    "md5-file": "^2.0.4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
