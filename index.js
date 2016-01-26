@@ -14,7 +14,7 @@ module.exports = {
     var defaultOptions = {
       enabled: env === 'production',
       appcacheFile: "/manifest.json",
-      excludePaths: ['tests/', 'robots.txt'],
+      excludePaths: ['tests/', 'robots.txt', 'index.html'],
       includePaths: [],
       loadSortOptions: ['vendor'],
       loadExtensions: ['js', 'css']
